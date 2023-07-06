@@ -1,0 +1,72 @@
+import { StyleSheet} from 'react-native'
+
+const styles = StyleSheet.create({
+    txtlogin:{
+        color:'white',
+        fontSize:14,
+        fontWeight:'600'
+    },
+    Vbtnlogin:{
+        width:'70%',
+        marginTop:10
+    },
+    btnlogin:{
+        backgroundColor:'#1c64ac',
+        height:50,
+        width:'100%',
+        borderRadius:8,
+        alignItems:'center',
+        justifyContent:'center'
+    },
+    txtchecked:{
+        color:'white',
+        fontWeight:'300'
+    },
+    Vcheckbox:{
+        width:'74%',
+        display:'flex',
+        flexDirection:'row',
+        alignItems:'center'
+    },
+    txtforgot:{
+        color:'white',
+        fontSize:12
+    },
+    Vtxtforgot:{
+        width:'70%',
+        marginTop:5
+    },
+    Vtxtinputlogin:{
+        width:'70%',
+        marginTop:20
+    },
+    txtinputlogin:{
+        color:'white',
+        fontSize:12,
+        borderRadius:8,
+        borderWidth:1,
+        marginTop:10,
+        paddingLeft:10,
+        borderColor:'white'
+    },
+    container:{
+        backgroundColor:'#1D79B9',
+        width:'100%',
+        height:'100%',
+        alignItems:'center',
+        justifyContent:'center'
+    },
+    txtlogo:{
+        fontSize:12,
+        letterSpacing:6,
+        color:'white',
+        fontWeight:'200'
+    },
+    Vtxtlogo:{
+        width:'100%',
+        alignItems:'center',
+        paddingRight:10
+    }
+})
+
+export default styles
